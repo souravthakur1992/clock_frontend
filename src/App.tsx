@@ -1,25 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react'
+import { BrowserRouter,Switch,Route } from 'react-router-dom'
+import Footer from 'pages/footer'
+import Home from 'pages/home'
+import Header from 'pages/home/Header'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <BrowserRouter>
+      <Fragment>
+        <div
+          style={{
+            flex: '1 0 auto',
+            width: '100%',
+            margin: 'auto',
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Header />
+          <div style={{ padding: '0 16px 0 16px' }}>
+            <Switch>
+              <Route exact path='/' component={Home} />
+            </Switch>
+          </div>
+        </div>
+        <Footer />
+      </Fragment>
+    </BrowserRouter>
   );
 }
 
