@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { BrowserRouter,Switch,Route } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import Footer from 'pages/footer'
 import Home from 'pages/home'
 import Header from 'pages/home/Header'
@@ -18,9 +18,7 @@ function App() {
         >
           <Header />
           <div style={{ padding: '0 16px 0 16px' }}>
-            <Switch>
-              <Route exact path='/' component={Home} />
-            </Switch>
+          <Home/>
           </div>
         </div>
         <Footer />
