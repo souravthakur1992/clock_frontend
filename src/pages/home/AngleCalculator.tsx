@@ -110,9 +110,6 @@ function AngleCalculator() {
           <CTypography paragraph align='left'>
             Kindly <b>Enter/Select</b> Time and See the result for Angle between Clock Hands
            </CTypography>
-           <CTypography variant='h6' font='Bold' align='center'>
-            Current Time Value <b>{date}</b>
-          </CTypography>
           <div className={classes.time}>
             <CTypography variant='h6' font='Bold' align='center'>
              Select Time
