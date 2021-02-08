@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/clock_frontend/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/clock_frontend/static/js/main.c22f9ba5.chunk.js",
-    "main.js.map": "/clock_frontend/static/js/main.c22f9ba5.chunk.js.map",
+    "main.js": "/clock_frontend/static/js/main.d07b37b6.chunk.js",
+    "main.js.map": "/clock_frontend/static/js/main.d07b37b6.chunk.js.map",
     "runtime-main.js": "/clock_frontend/static/js/runtime-main.2784df56.js",
     "runtime-main.js.map": "/clock_frontend/static/js/runtime-main.2784df56.js.map",
-    "static/js/2.162e8670.chunk.js": "/clock_frontend/static/js/2.162e8670.chunk.js",
-    "static/js/2.162e8670.chunk.js.map": "/clock_frontend/static/js/2.162e8670.chunk.js.map",
+    "static/js/2.6ff9a40b.chunk.js": "/clock_frontend/static/js/2.6ff9a40b.chunk.js",
+    "static/js/2.6ff9a40b.chunk.js.map": "/clock_frontend/static/js/2.6ff9a40b.chunk.js.map",
     "static/js/3.8dd16f96.chunk.js": "/clock_frontend/static/js/3.8dd16f96.chunk.js",
     "static/js/3.8dd16f96.chunk.js.map": "/clock_frontend/static/js/3.8dd16f96.chunk.js.map",
     "index.html": "/clock_frontend/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/clock_frontend/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.162e8670.chunk.js.LICENSE.txt": "/clock_frontend/static/js/2.162e8670.chunk.js.LICENSE.txt",
+    "static/js/2.6ff9a40b.chunk.js.LICENSE.txt": "/clock_frontend/static/js/2.6ff9a40b.chunk.js.LICENSE.txt",
     "static/media/analogClock.e91157a1.svg": "/clock_frontend/static/media/analogClock.e91157a1.svg",
-    "static/media/clock.984299de.svg": "/clock_frontend/static/media/clock.984299de.svg"
+    "static/media/clock.182a1f09.svg": "/clock_frontend/static/media/clock.182a1f09.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2784df56.js",
-    "static/js/2.162e8670.chunk.js",
+    "static/js/2.6ff9a40b.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c22f9ba5.chunk.js"
+    "static/js/main.d07b37b6.chunk.js"
   ]
 }
