@@ -17,9 +17,7 @@ function App() {
           }}
         >
           <Header />
-          <div style={{ padding: '0 16px 0 16px' }}>
-          <Home/>
-          </div>
+          <Home />
         </div>
         <Footer />
       </Fragment>

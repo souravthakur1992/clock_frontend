@@ -8,7 +8,7 @@ import {
 } from '@material-ui/core'
 import { CTypography, CPaper,CWorkingClock } from 'components'
 
-const margin = '5px'
+const margin = '15px'
 
 const styles = makeStyles(theme => ({
   root: {
@@ -20,16 +20,18 @@ const styles = makeStyles(theme => ({
       width: '100%',
       left: 0,
     },
+  },
+  boxStyle:{    
+    display:'flex', 
+    justifyContent:'space-around',
     [theme.breakpoints.down('sm')]: {
-      padding: 24,
+      display:'block',
+      padding: 8,
     },
   },
   root2: {
     maxWidth: 350,
     margin: 16,
-    [theme.breakpoints.down('sm')]: {
-      padding: 8,
-    },
   },  
   paper: {
     minWidth: 230,
@@ -40,7 +42,12 @@ const styles = makeStyles(theme => ({
     textAlign: 'center',
     backgroundColor: '#FFFFFF',
     border: 'unset',
-    borderRadius: '0 0 5px 5px',
+    borderRadius: '15px',
+    [theme.breakpoints.down('sm')]: {
+      borderRadius: '0px',
+      width: '100%',
+      'align-items': 'center'
+    },
   },
   rightHeading: {
     marginTop: 32,
@@ -99,7 +106,7 @@ function AngleCalculator() {
   }
   return (
     <div className={classes.root}>
-      <Box display='flex' justifyContent='space-around'>
+      <Box className={classes.boxStyle}>
       <CPaper className={classes.paper}>
         <div className={classes.root2}>
           <CTypography variant='h6' font='Bold' align='center'>

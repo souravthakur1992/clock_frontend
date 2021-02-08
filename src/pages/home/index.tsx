@@ -4,15 +4,18 @@ import AngleCalculator from './AngleCalculator'
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '100%',
+    padding: '0 16px 0 16px',
+    [theme.breakpoints.down('sm')]: {
+      padding: '0px'
+    },
   },
 }))
 
 export default function Home(props: any) {
   const classes = useStyles()
   return (
-      <div className={classes.root}>
-         < AngleCalculator/>
-      </div>
+    <div className={classes.root}>
+      < AngleCalculator />
+    </div>
   )
 }
