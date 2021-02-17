@@ -88,7 +88,7 @@ function AngleCalculator() {
         return newDate.toLocaleTimeString()
       })
     }, 1000)
-    return clearInterval(tick)
+    return ()=>clearInterval(tick)
   }, [])
 
   const updateHands = () => {
